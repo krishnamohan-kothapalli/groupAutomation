@@ -13,6 +13,11 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.36.0'  //Selenium-Java
+    testImplementation 'org.testng:testng:7.8.0'    //testNG
+    implementation 'io.cucumber:cucumber-java:7.27.2'   //Cucumber-Java
+    implementation 'org.apache.logging.log4j:log4j-core:2.24.3' //Log4J
+
 }
 
 test {
